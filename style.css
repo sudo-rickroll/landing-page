@@ -1,0 +1,161 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.header, .information-header, .body, .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;    
+    flex-shrink: 0;
+    gap: 100px;
+    height: 500px;
+}
+
+.header {
+    background-color: #1F2937;
+}
+
+.header-top, .header-bottom, .information-header-top, .body-content {
+    display: flex;
+    width: 75%;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.body-content{
+    display: block;
+    width: 911px;
+    margin: 50px;
+}
+
+.header-top, .header-bottom {
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    
+}
+
+.header-top>ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
+}
+
+
+.header-top>ul a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.information-header {
+    display: flex;
+    height: 400px; 
+}
+
+.body {
+    background-color: #E5E7EB;
+    display: flex;
+    flex: 1;
+}
+
+.information-footer {
+    display: flex;
+    flex: 1;
+}
+
+.welcome-text>.h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.welcome-text>.p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: 5px;
+}
+
+.welcome-text>button {
+    background-color: #3882F6;
+    border: 0px;
+    color: #F9FAF8;
+    margin-top: 5px;
+    border-radius: 5px;
+    padding: 10px 30px;
+    font-weight: 800;
+}
+
+.header-bottom>img {
+    background-color: gray;
+    height: 203px;
+    min-width: 50%;
+    text-align: center;
+    line-height: 203px;
+}
+
+.header-bottom {
+    gap: 200px;
+}
+
+.information-header-top {
+    flex-direction: column;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.information-header-top>p {
+    margin-bottom: 18px;
+}
+
+.information-images {
+    display: flex;
+}
+
+.information-images p {
+    font-size: 18px;
+    font-weight: 100;
+    color: black;
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+.information-images>div {
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    text-align: center;
+}
+
+.information-images>div>img {
+    height: 100px;
+    width: 100px;
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+
+.body-content>p:nth-of-type(1)>i {
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.body-content>p:nth-of-type(2) {
+    text-align: right
+}
