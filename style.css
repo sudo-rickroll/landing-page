@@ -23,7 +23,7 @@ body {
     background-color: #1F2937;
 }
 
-.header-top, .header-bottom, .information-header-top, .body-content {
+.header-top, .header-bottom, .information-header-top, .body-content, .information-footer {
     display: flex;
     width: 75%;
     margin: 10px;
@@ -34,7 +34,7 @@ body {
 .body-content{
     display: block;
     width: 911px;
-    margin: 50px;
+    margin: 100px;
 }
 
 .header-top, .header-bottom {
@@ -74,7 +74,7 @@ body {
     flex: 1;
 }
 
-.information-footer {
+.footer {
     display: flex;
     flex: 1;
 }
@@ -91,7 +91,7 @@ body {
     margin-top: 5px;
 }
 
-.welcome-text>button {
+button {
     background-color: #3882F6;
     border: 0px;
     color: #F9FAF8;
@@ -158,4 +158,39 @@ body {
 
 .body-content>p:nth-of-type(2) {
     text-align: right
+}
+
+.information-footer {
+    width: 60%;
+    margin: 100px;
+    border-radius: 7px;
+    background-color: #3882F6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 170px;
+}
+
+.footer-text {
+    margin: 40px;
+}
+
+.footer-text>p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer-text>p:nth-of-type(1) {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.footer-text>p:nth-of-type(2) {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.information-footer>button {
+    border: 1px solid #F9FAF8;
+    margin-right: 65px;
 }
